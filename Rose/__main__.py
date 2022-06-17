@@ -85,30 +85,33 @@ async def start_bot():
 
 home_keyboard_pm = InlineKeyboardMarkup(           
     [
-        [
+       [
             InlineKeyboardButton(
                 text=" ➕ Add Me To Your Group ➕ ",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
         [
-             InlineKeyboardButton(
-                text="⭐️How To Use Me⭐️", callback_data="bot_commands"
-            
-        ],
-        [
+           InlineKeyboardButton(
+                text=" ℹ️ About", callback_data="_about"
+            ),
             InlineKeyboardButton(
-                text=" 🇺🇦languages", callback_data="_langs"
+                text="🌍 languages ", callback_data="_langs"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="⭐️Support⭐️",
-                url=f"https://t.me/",
+                text="📮 How To Use Me", callback_data="bot_commands"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="🌐 My Website",
+                url=f"https://szrosebot.ml",
             ),
             InlineKeyboardButton(
-                text="⭐️Owner⭐️",
-                url=f"https://t.me/thelogicalguy",
+                text="🔰News Channel",
+                url=f"https://t.me/szroseupdates",
             )
         ],
     ]
