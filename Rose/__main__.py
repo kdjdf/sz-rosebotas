@@ -93,24 +93,24 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
            
-            ),
+            
             InlineKeyboardButton(
-                text="🌍 languages ", callback_data="_langs"
+                text="⭐️How To Use Me⭐️", callback_data="bot_commands"   
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="🏳️‍🌈languages", callback_data="_langs" 
             ),
         ],
         [
             InlineKeyboardButton(
-                text="📮 How To Use Me", callback_data="bot_commands"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-                text="🌐 My Website",
-                url=f"https://szrosebot.ml",
+                text="⭐️Support⭐️",
+                url=f"https://t.me/",
             ),
             InlineKeyboardButton(
-                text="🔰News Channel",
-                url=f"https://t.me/szroseupdates",
+                text="⭐️Owner⭐️",
+                url=f"https://t.me/The_Logical_Guy",
             )
         ],
     ]
