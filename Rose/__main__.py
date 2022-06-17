@@ -92,8 +92,7 @@ home_keyboard_pm = InlineKeyboardMarkup(
             )
         ],
         [
-           InlineKeyboardButton(
-                text=" ℹ️ About", callback_data="_about"
+           
             ),
             InlineKeyboardButton(
                 text="🌍 languages ", callback_data="_langs"
