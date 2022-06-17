@@ -69,8 +69,8 @@ async def start_bot():
  _____________________________________________   
 |                                             |  
 |          Deployed Successfully              |  
-|         (C) 2021-2022 by @szteambots        | 
-|          Greetings from supun  :)           |
+|                                             | 
+|                                             |
 |_____________________________________________|  
                                                                                                
     """)
@@ -85,13 +85,7 @@ async def start_bot():
 
 home_keyboard_pm = InlineKeyboardMarkup(
     [
-        [
-            InlineKeyboardButton(
-                text=" ➕ Add Me To Your Group ➕ ",
-                url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
-            )
-        ],
-        [
+       [
            InlineKeyboardButton(
                 text=" ℹ️ About", callback_data="_about"
             ),
@@ -101,17 +95,17 @@ home_keyboard_pm = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📮 How To Use Me", callback_data="bot_commands"
+                text="⭐️How To Use Me⭐️", callback_data="bot_commands"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🌐 My Website",
-                url=f"https://szrosebot.ml",
+                text="⭐️Support⭐️",
+                url=f"https://t.me/",
             ),
             InlineKeyboardButton(
-                text="🔰News Channel",
-                url=f"https://t.me/szroseupdates",
+                text="⭐️Owner⭐️",
+                url=f"https://t.me/thelogicalguy",
             )
         ],
     ]
@@ -128,11 +122,11 @@ keyboard = InlineKeyboardMarkup(
     ]
 )
 
-IMG = ["https://telegra.ph/file/c8f5c1dd990ca9a3d8516.jpg",
-       "https://telegra.ph/file/77cc3154b752ce822fd52.jpg",
-       "https://telegra.ph/file/e72fb0b6a7fba177cf4c7.jpg",
-       "https://telegra.ph/file/8738a478904238e367939.jpg",
-       "https://telegra.ph/file/68d7830ba72820f44bda0.jpg"
+IMG = ["https://telegra.ph/file/c8fs5c1dd990ca9a3d8516.jpg",
+       "https://telegra.ph/file/77cc3s154b752ce822fd52.jpg",
+       "https://telegra.ph/file/e72fbs0b6a7fba177cf4c7.jpg",
+       "https://telegra.ph/file/8738a4s78904238e367939.jpg",
+       "https://telegra.ph/file/68d7830bsa72820f44bda0.jpg"
 ]
 
 @app.on_message(filters.command(START_COMMAND))
