@@ -181,8 +181,8 @@ async def start(client, message: Message, _):
         await message.reply(f"""
 [👋]({random.choice(IMG)}) Hey there {message.from_user.mention}, 
 
-   My name is ＪＡＲＶＩＳ! 
-A telegram group management bot. I'm here to help you to manage your groups.
+  
+I'm a telegram group management bot. I'm here to help you to manage your groups.
 I have lots of handy features such as:
 ➥ Warning system
 ➥ Artificial intelligence
@@ -282,12 +282,19 @@ async def startcq(client,CallbackQuery, _):
             text=f"""
 👋 Hey there {CallbackQuery.from_user.mention}, 
 
-   My name is Rose ,an  advanced telegram Group management Bot For help 
-You Protect Your Groups & Suit For All Your Needs. 
-I currently manage about `{len(served_chats)}` groups.I have over `{len(served_users)}` users
+   I'm a telegram group management bot. I'm here to help you to manage your groups.
+I have lots of handy features such as:
+➥ Warning system
+➥ Artificial intelligence
+➥ Flood control system
+➥ Note keeping system
+➥ Filters keeping system
+➥ Approvals and much more.
 
- ⚒ Send Me /help For Get Commands. 
-👨‍💻Dᴇᴠᴇʟᴏᴘᴇʀ : @supunma
+So what are you waiting for?
+Add me in your groups and give me full rights to make me function well.
+
+⚒ Send Me /help For Get Commands.
 """,
             disable_web_page_preview=True,
             reply_markup=home_keyboard_pm)
@@ -302,7 +309,7 @@ async def help_parser(name, keyboard=None):
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
 If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
+
 **All commands can be used with the following: / **""",
         keyboard,
     )
