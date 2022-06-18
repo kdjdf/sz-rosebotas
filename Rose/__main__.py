@@ -308,13 +308,10 @@ async def help_parser(name, keyboard=None):
 **Welcome to help menu**
 I'm a group management bot with some useful features.
 You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-
+If you have a
 **All commands can be used with the following: / **""",
         keyboard,
     )
-
-
 
 @app.on_callback_query(filters.regex("bot_commands"))
 @languageCB
